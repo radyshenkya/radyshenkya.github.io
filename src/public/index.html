@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Test page
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="static/css/tailwind-output.css" />
+</head>
+
+<body>
+    <div class="container py-5 mx-auto px-10 min-h-screen flex flex-col justify-between">
+        <div class="flex flex-col gap-y-6 items-center">
+            <h1 class="font-ubuntu inline font-thin text-4xl">random pet! </h1>
+            <img alt="pet image..."
+                class="max-w-full max-h-[500px] lg:max-w-xl rounded-xl duration-300 hover:scale-105 active:scale-100 brightness-100 hover:brightness-105 active:brightness-90 shadow-sm"
+                id="pet-image"></img>
+            <p class="text-lg text-zinc-400">click on image <span class="hidden md:inline">or hit space</span> for new
+                pet :)</p>
+            <!-- <button id="new-pet-btn"
+                class="font-thin text-xl text-zinc-700 bg-red-200 active:bg-red-100 py-1 px-3 rounded-xl shadow-sm hover:shadow-lg duration-150 hover:scale-110 active:scale-105">
+                new pet :)</button> -->
+            <script src="static/js/main.js"></script>
+        </div>
+
+        <footer class="flex pt-10 pb-3 flex-row justify-evenly">
+            <a href="" target="_blank" class="font-ubuntu text-zinc-500 hover:text-zinc-400 duration-150">this page on
+                github</a>
+            <a href="https://github.com/radyshenkya" target="_blank"
+                class="font-ubuntu text-zinc-500 hover:text-zinc-400 duration-150">author</a>
+        </footer>
+    </div>
+</body>
+
+</html>
