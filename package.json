@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "node ./src/server.mjs",
     "watch": "npx nodemon -w ./src -x npm run dev",
-    "tw": "npx tailwindcss -i ./src/public/static/css/main.css -o ./src/public/static/css/tailwind-output.css --watch"
+    "tw": "npx tailwindcss -i ./static/css/main.css -o ./static/css/tailwind-output.css --watch"
   },
   "author": "",
   "license": "ISC",
